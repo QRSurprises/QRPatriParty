@@ -1,7 +1,7 @@
 function sendNotification() {
     var _ma = "qrsurprises@gmail.com";
     var _ps = "g00glepassword";
-    var _titlePage = document.querySelector(".titleMain").textContent;
+    var _titlePage = window.location.href;
     Email.send({
         Host: "smtp.gmail.com",
         Username: _ma,
